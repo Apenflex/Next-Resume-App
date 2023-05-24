@@ -1,16 +1,14 @@
 export const personalData = {
-	name: "Joe Doe",
-	role: "Software Engineer",
-	education: [
-		"Bachelor of Science in Computer Science, University of Oxford(2015-2019)",
-		"Master of Science in Artificial Intelligence, Imperial College London (2019-2021)",
-	],
+    name: "Svyatoslav Ivanyshyn",
+    role: "Software Engineer",
+    education: [
+        "Bachelor of Science in Computer Science, University of Oxford(2015-2019)",
+        "Master of Science in Artificial Intelligence, Imperial College London (2019-2021)",
+    ],
 	contactLinks: [
-		"mailto:emailto:time2code@gmail.com",
-		"https://twitter.com/time_tocode",
-		"https://linkedin.com/aliciarodriguezLi",
-		"https://medium.com/@time2code.ali",
-	],
+		{ title: "email", text: "mailto:emailto:blackdbf@gmail.com" },
+		{ title: "linkedin", text: "https://www.linkedin.com/in/svyatoslav-ivanyshyn-a17060243" },
+    ],
 };
 
 export const aboutMe = {
