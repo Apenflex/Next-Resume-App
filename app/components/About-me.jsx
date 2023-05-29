@@ -9,7 +9,6 @@ const AboutMe = ({ data, skills }) => {
             <p key={`${id}_${i}`} className="mb-6">{el}</p>
         ))
     )
-
     return (
         <section>
             <h2 className="mb-1">{title}</h2>
@@ -19,5 +18,4 @@ const AboutMe = ({ data, skills }) => {
         </section>
     )
  }
-
 export default AboutMe;
