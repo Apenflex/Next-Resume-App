@@ -29,7 +29,7 @@ const Skills = ({ data }) => {
         >
             {data[activeTab].map(({ icon, text }) => (
                 <li key={text} className="skill">
-                    <span>{icon}</span>
+                    <span className="mr-1">{icon}</span>
                     {text}
                 </li>
             ))}

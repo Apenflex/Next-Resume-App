@@ -7,7 +7,7 @@
         @apply text-yellow text-4xl text-center sm:text-3xl;
     }
     h2 {
-        @apply text-xl text-center lg:text-2xl;
+        @apply text-xl text-center lg:text-xl;
     }
     h3 {
         @apply text-lg;
@@ -15,10 +15,14 @@
     h4 {
         @apply text-base;
     }
-    p  {
-        @apply text-base;
+    p {
+        @apply text-lg;
     }
-    h1, h2, h3, h4 {
+    h1,
+    h2,
+    h3,
+    h4,
+    p {
         @apply font-display;
     }
     html {

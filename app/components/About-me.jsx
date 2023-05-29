@@ -9,9 +9,11 @@ const AboutMe = ({ data, skills }) => {
             <p key={`${id}_${i}`} className="mb-6">{el}</p>
         ))
     )
+
     return (
         <section>
-            <h2 className="mb-8">{title}</h2>
+            <h2 className="mb-1">{title}</h2>
+            <span className="flex h-1 bg-grey w-full mb-4"></span>
             {content}
             <Skills data={skills} />
         </section>
