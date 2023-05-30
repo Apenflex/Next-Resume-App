@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { Envelope, Linkedin, GitHub, Phone } from "../../icons";
+
+import Links from "./Links";
 
 const Sidebar = ({ data }) => {
     const { name, role, location, languages, education, contactLinks } = data;
@@ -34,29 +35,7 @@ const Sidebar = ({ data }) => {
                 ))}
                 <h2 className="mb-2">EDUCATION</h2>
                 {educationContent}
-                <div className="text-white text-center mb-4 mt-4 sm:mt-8">
-                    <h3 className="mb-2"> CONTACT ME </h3>
-                    <div className="flex flex-row justify-center gap-3">
-                        {contactLinks.map((link) => (
-                            <a
-                                className="text-2xl m-2"
-                                key={link.title}
-                                href={link.text}
-                                aria-label={`${link.title} link`}
-                            >
-                                {link.title === "email" ? (
-                                    <Envelope />
-                                ) : link.title === "linkedin" ? (
-                                    <Linkedin />
-                                ) : link.title === "github" ? (
-                                    <GitHub />
-                                ) : (
-                                    <Phone />
-                                )}
-                            </a>
-                        ))}
-                    </div>
-                </div>
+                <Links contactLinks={contactLinks} />
             </div>
         </div>
     );

@@ -15,11 +15,11 @@ module.exports = {
          "green-light": "#d2eff1",
          white: "#FFF",
       },
-      fontFamily: {
-         sans: ["Georgia", "sans-serif"],
-         serif: ["Merriweather", "serif"],
-         display: ["Roboto"],
-      },
+      // fontFamily: {
+      //    sans: ["Georgia", "sans-serif"],
+      //    serif: ["Merriweather", "serif"],
+      //    display: ["Roboto"],
+      // },
       fontSize: {
          sm: "0.8rem",
          base: "1rem",
@@ -32,6 +32,9 @@ module.exports = {
          "6xl": "3.5rem",
       },
       extend: {
+         fontFamily: {
+            sans: ["Roboto", "sans-serif"],
+         },
          // screens: {
          //    xs: "480px",
          //    sm: "640px",

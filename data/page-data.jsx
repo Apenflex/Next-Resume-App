@@ -11,10 +11,10 @@ export const personalData = {
         // "Master of Science in Artificial Intelligence, Imperial College London (2019-2021)",
     ],
     contactLinks: [
-        {
-            title: "email",
-            text: "mailto:emailto:blackdbf@gmail.com",
-        },
+        // {
+        //     title: "email",
+        //     text: "mailto:emailto:blackdbf@gmail.com",
+        // },
         {
             title: "linkedin",
             text: "https://www.linkedin.com/in/svyatoslav-ivanyshyn-a17060243",
@@ -132,7 +132,7 @@ export const professionalData = {
 };
 
 export const projectsData = {
-    works: [
+	works: [
         {
             title: "Small Online Shop",
             link: "https://react-plants-shop.vercel.app/",
