@@ -134,19 +134,49 @@ export const professionalData = {
 export const projectsData = {
     works: [
         {
-            title: "Small Online Shop",
+            title: "Next.js Checklisty",
+            link: "https://github.com/programmingmentor/checklisty",
+            description: "Checklisty app built with Next.js it`s my project with team. Still in development",
+            stack: ["Next.js", "TypeScript", "Prisma", "Docker", "PostgreSQL", "TailwindCSS", "NextAuth"],
+        },
+        {
+            title: "React-Heroes-Redux",
+            link: "https://github.com/Apenflex/React-Heroes-Redux",
+            description: "React App where you can add your hero and sort",
+            stack: ["React", "Redux", "React Hooks", "Scss", "JSON", "API"],
+        },
+        {
+            title: "Next.js PostIt App",
+            link: "https://github.com/Apenflex/Next-PostIt-App",
+            description: "PostIt App where you can authorize with Google and add your posts",
+            stack: ["Next.js", "TypeScript", "NextAuth", "Prisma", "PostgreSQL", "Railway", "TailwindCSS", "Auth with Google"],
+        },
+        {
+            title: "Plants Shop",
             link: "https://react-plants-shop.vercel.app/",
             description: "Small online shop with React and Zustand",
             stack: ["React", "Zustand", "React Router", "React Hooks", "CSS", "JSON", "Formik"],
         },
         {
-            title: "First React Project",
+            title: "React Marvel Heroes",
+            link: "https://react-marvel-learn-api.vercel.app/",
+            description: "Project with Marvel API where you can find your favorite hero",
+            stack: ["React", "React Router", "React Hooks", "Scss", "Marvel API", "Suspense", "Lazy", "Skeleton"],
+        },
+        {
+            title: "React Coffee Shop",
             link: "https://react-coffee-shop-psi.vercel.app/",
             description: "First React project about coffee shop",
             stack: ["React", "React Router", "React Hooks", "CSS"],
         },
         {
-            title: "WebPage for Car Rental",
+            title: "Heating Company",
+            link: "https://prime-hvac.ca/",
+            description: "WordPress commercial project for Heating Company",
+            stack: ["WordPress", "PHP", "CSS", "HTML", "JavaScript"],
+        },
+        {
+            title: "Car Rental",
             link: "https://apenflex.github.io/Car_Rental/dist/index.html",
             description: "WebPage for Car Rental",
             stack: ["HTML", "CSS", "JavaScript", "Scss", "BEM"],

@@ -17,23 +17,26 @@ const Sidebar = ({ data }) => {
                 <Image
                     className="rounded-full h-full"
                     // priority
-                    width={150}
-                    height={150}
+                    width={140}
+                    height={140}
                     src="/images/avatar.jpg"
                     alt="avatar.jpg"
                     aria-label="avatar.jpg"
                 />
-                <h1 className="mb-2">{name}</h1>
+                <h2 className="mb-2 text-yellow">{name}</h2>
+                <h4 className="mb-2 text-center">{role}</h4>
                 <h4 className="mb-2">{location}</h4>
-                <h3 className="mb-5 text-center">{role}</h3>
                 <h4 className="mb-2">LANGUAGES</h4>
                 <div className="flex">
-                {languages.map(({ type, level }) => (
-                    <div key={type} className="flex flex-col text-center w-full mb-3 px-4">
-                        <h4>{type}</h4>
-                        <h4>{level}</h4>
-                    </div>
-                ))}
+                    {languages.map(({ type, level }) => (
+                        <div
+                            key={type}
+                            className="flex flex-col text-center w-full mb-3 px-4"
+                        >
+                            <h4>{type}</h4>
+                            <h4>{level}</h4>
+                        </div>
+                    ))}
                 </div>
                 <h4 className="mb-1">EDUCATION</h4>
                 {educationContent}

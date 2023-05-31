@@ -47,7 +47,7 @@ const Links = ({ contactLinks }) => {
                         )}
                     </a>
                 ))}
-                <button className="text-2xl" onClick={() => setEmail(!email)}>
+                <button className="text-3xl" onClick={() => setEmail(!email)}>
                     <Envelope />
                 </button>
             </div>

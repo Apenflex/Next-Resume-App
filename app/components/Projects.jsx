@@ -21,15 +21,15 @@ const Projects = ({ data }) => {
                                 >
                                     {title}
                                 </Link>
-                                <h4 className="mt-4">{description}</h4>
+                                <h4 className="mt-1 md:mt-4">{description}</h4>
                             </div>
                             <div className="flex flex-col w-full md:w-1/2">
-                                <h4>Used in project</h4>
+                                <h4 className="text-center">Used in project</h4>
                                 <ul className="flex flex-row flex-wrap list-none py-2 gap-1">
                                     {stack.map((item) => (
                                         <li
                                             key={item}
-                                            className="bg-green-light py-1 px-3 w-fit rounded-md"
+                                            className="bg-green-light py-1 px-2 w-fit rounded-md"
                                         >
                                             {item}
                                         </li>
