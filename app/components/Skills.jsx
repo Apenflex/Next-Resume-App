@@ -22,7 +22,7 @@ const Skills = ({ data }) => {
     );
     const content = (
         <ul
-            className={`flex flrx-row flex-wrap content-start list-none py-2 gap-2 ${
+            className={`flex flex-row flex-wrap content-start list-none py-2 gap-2 ${
                 activeTab === "soft" ? "justify-start" : "justify-end"
             }`}
         >

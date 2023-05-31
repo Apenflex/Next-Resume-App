@@ -28,8 +28,8 @@ const Links = ({ contactLinks }) => {
     );
 
     return (
-        <div className="text-white text-center mb-4 mt-4 sm:mt-8">
-            <h3 className="mb-2"> CONTACT ME </h3>
+        <div className="text-white text-center mb-2 mt-2 sm:mt-8">
+            <h3> CONTACT ME </h3>
             <div className="flex flex-row justify-center gap-3">
                 {contactLinks.map((link) => (
                     <a

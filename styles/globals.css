@@ -25,12 +25,18 @@
         @apply mb-10;
     }
     .btn {
-        @apply w-1/2 h-12 text-black rounded-md uppercase text-xl transition ease-in-out px-6 hover:text-yellow hover:bg-black duration-200;
+        @apply w-1/2 h-12 text-black rounded-md uppercase text-xl transition ease-in-out px-4 hover:text-yellow hover:bg-black duration-200;
     }
     .skill {
-        @apply bg-green-light text-lg py-2 px-4 w-fit rounded-md;
+        @apply bg-green-light py-2 px-4 w-fit rounded-md;
     }
     input {
         @apply rounded-sm px-2 py-1
     }
+    /* .link {
+        @apply before:content-'' before:absolute before:left-1/2 before:w-0 before:bottom-['-3px'] before:h-['2px'] before:bg-yellow before:transition-all after:content-'' after:absolute after:right-1/2 after:w-0 after:bottom-['-3px'] after:h-['2px'] after:bg-yellow after:transition-all hover:after:w-1/2 hover:before:w-1/2 hover:bg-yellow hover:transition-all duration-200;
+    } */
 }
+    .link {
+        @apply w-fit before:content-[''] before:absolute before:left-1/2 before:w-0 before:-bottom-1 before:h-0.5 before:bg-black before:transition-all after:content-[''] after:absolute after:right-1/2 after:w-0 after:-bottom-1 after:h-0.5 after:bg-black after:transition-all hover:after:w-1/2 hover:before:w-1/2 hover:transition-all delay-700;
+    }

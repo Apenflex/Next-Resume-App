@@ -8,7 +8,7 @@ const ProffesionalExperience = ({ data }) => {
 
     return (
         <section>
-            <div className="flex w-full justify-center items-center mb-4">
+            <div className="flex w-full justify-center items-center mb-2">
                 <h2>{title}</h2>
                 <button
                     type="button"

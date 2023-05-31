@@ -6,7 +6,7 @@ const AboutMe = ({ data, skills }) => {
     const { title, body } = data;
     const id = useId();
     const content = (body?.map((el, i) => (
-            <p key={`${id}_${i}`} className="mb-6">{el}</p>
+            <p key={`${id}_${i}`} className="mb-4 text-center">{el}</p>
         ))
     )
     return (

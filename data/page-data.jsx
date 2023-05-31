@@ -49,7 +49,7 @@ export const skills = {
     ],
     hard: [
         { icon: "💻", text: "HTML" },
-        { icon: "✍️", text: "CSS/SCSS/SASS/LESS" },
+        { icon: "✍️", text: "CSS/SCSS" },
         { icon: "ʦ", text: "JAVASCRIPT/ TYPESCRIPT" },
         { icon: "📚", text: "BOOTSTRAP / TAILWIND" },
         { icon: "📐", text: "FIGMA (DESIGN SOFTWARE)" },
@@ -132,41 +132,48 @@ export const professionalData = {
 };
 
 export const projectsData = {
-	works: [
+    works: [
         {
             title: "Small Online Shop",
             link: "https://react-plants-shop.vercel.app/",
             description: "Small online shop with React and Zustand",
+            stack: ["React", "Zustand", "React Router", "React Hooks", "CSS", "JSON", "Formik"],
         },
         {
             title: "First React Project",
             link: "https://react-coffee-shop-psi.vercel.app/",
             description: "First React project about coffee shop",
+            stack: ["React", "React Router", "React Hooks", "CSS"],
         },
         {
             title: "WebPage for Car Rental",
             link: "https://apenflex.github.io/Car_Rental/dist/index.html",
             description: "WebPage for Car Rental",
+            stack: ["HTML", "CSS", "JavaScript", "Scss", "BEM"],
         },
         {
             title: "WebPage with Observer Scroll",
             link: "https://apenflex.github.io/Modules/ObserverScroll//index.html",
             description: "WebPage with Observer Scroll",
+            stack: ["HTML", "CSS", "JavaScript", "Scss",],
         },
         {
             title: "Calculator WebApp",
             link: "https://apenflex.github.io/Modules/Calculator//index.html",
             description: "Practice with JavaScript. Calculator WebApp",
+            stack: ["HTML", "CSS", "JavaScript", "Scss",],
         },
         {
             title: "WebPage from my SoftServe Course",
             link: "https://apenflex.github.io/softserve_project/index.html",
-            description: "WebPage from my SoftServe Course with HTML/CSS/JS",
+            description: "WebPage from my SoftServe Course",
+            stack: ["HTML", "CSS", "JavaScript", "Scss",],
         },
         {
             title: "WebPage from Udemy Course",
-			link: "https://apenflex.github.io/Portfolio_site/index.html",
-			description: "WebPage from Udemy Course with HTML/CSS/JS",
+            link: "https://apenflex.github.io/Portfolio_site/index.html",
+            description: "WebPage from Udemy Course",
+            stack: ["HTML", "CSS", "JavaScript", "Scss",],
         },
-    ],
+    ]
 };
