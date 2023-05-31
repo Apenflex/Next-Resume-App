@@ -202,7 +202,7 @@ export const projectsData = {
         {
             title: "WebPage from Udemy Course",
             link: "https://apenflex.github.io/Portfolio_site/index.html",
-            description: "WebPage from Udemy Course",
+            description: "WebPage from Udemy Course it`s my first project",
             stack: ["HTML", "CSS", "JavaScript", "Scss",],
         },
     ]
