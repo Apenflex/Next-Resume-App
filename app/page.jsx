@@ -2,7 +2,7 @@ import { aboutMe, skills, professionalData, projectsData } from "../data/page-da
 
 import AboutMe from "./components/About-me";
 import Projects from "./components/Projects";
-import ProffesionalExperience from "./components/proffesional-experience";
+import ProffesionalExperience from "./components/Proffesional-experience";
 
 export default function Page() {
     return (
