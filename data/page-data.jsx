@@ -31,11 +31,11 @@ export const personalData = {
 };
 
 export const aboutMe = {
-	title: "ABOUT ME",
-	body: [
-		"A have experience 7months in creating a layout using HTML, CSS(Preprocessors) used BEM technology and JavaScript, followed by landing on Wordpress. I have done some small projects on react. Commercial experience in WordPress development. I continue my studies in JavaScript, React,Next.js and also studying new technologies and English language. I have practical and commercial experience working in a team. ",
-		"Development, growth, practice and for results are important for me. I am a quick learner, responsible and ready to perform difficult tasks.",
-	],
+    title: "ABOUT ME",
+    body: [
+        "A have seven month experience  in creating a layout using HTML, CSS(Preprocessors) used BEM technology and JavaScript, followed by landing on Wordpress. I have done some small projects on react. Commercial experience in WordPress development. I continue my studies in JavaScript, React,Next.js and also studying new technologies and English language. I have practical and commercial experience working in a team. ",
+        "Development, growth, practice and for results are important for me. I am a quick learner, responsible and ready to perform difficult tasks.",
+    ],
 };
 
 export const skills = {
