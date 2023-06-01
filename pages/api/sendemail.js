@@ -17,9 +17,9 @@ export default async function sendEmail(req, res) {
 
     const msg = {
         to: 'blackdbf@gmail.com',
-        from: email,
+        from: 'blackdbf@gmail.com',
         subject: 'Hello from CV',
-        text: message,
+        text: `You got message: ${message} from ${email}`,
     }
 
     try {
