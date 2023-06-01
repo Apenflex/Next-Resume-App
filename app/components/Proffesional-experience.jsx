@@ -5,7 +5,7 @@ import { useState } from "react";
 const ProffesionalExperience = ({ data }) => {
     const { title, experiences } = data;
     const [showExp, setShowExp] = useState(false);
-    console.log(showExp);
+    
     return (
         <section>
             <div className="flex w-full justify-center items-center mb-2">
